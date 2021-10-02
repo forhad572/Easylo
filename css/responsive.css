@@ -1,0 +1,156 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner{
+    height: 147vh;
+  }
+  .banner .offset-1 {
+     margin-left: 0%; 
+  }
+  .b-left h1 {
+    font-size: 39px;
+    }
+  .b-left p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  .bs-text h2 {
+    font-size: 22px;
+  }
+  .bs-text p br{
+    display: none;
+  }
+  .bs-text p{
+    font-size: 13px;
+    margin-bottom: 36px;
+  }
+  .bs-content img {
+    margin-bottom: 0px;
+  }
+  .project-left img{
+    width: 100%;
+  }
+  .percentage {
+    padding: 21px 19px;
+    bottom: -69px;
+    right: -1px;
+  }
+  .project .offset-2{
+    margin-left: 0%;
+  }
+  .project-right h2 {
+    margin-top: 88px;
+    font-size: 21px;
+  }
+  .project-right p {
+    font-size: 13px;
+  }
+  .project .row>* {
+    width: auto;
+  }
+  .loan {
+    padding-top: 0px;
+  }
+  .loan .row>* {
+    width: auto;
+  }
+  .loan .offset-1 {
+    margin-left: 0%;
+  }
+  .loan-back-img img {
+    width: 100%;
+    margin-top: 42px;
+  }
+  .slider-box .offset-2 {
+    margin-left: 0%; 
+  }
+  .slider-user .row>* {
+    width: auto;
+  }
+  .slider {
+    padding-top: 43px;
+    padding-bottom: 2px;
+  }
+  .slider-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .footer .offset-1 {
+    margin-left: 0%;
+  }
+  .content-2 h4 {
+    margin-top: 20px;
+  }
+  .content-3 h4 {
+    margin-top: 20px;
+  }
+  .mail-img img {
+    left: 262px;
+  }
+  .mail form input {
+    width: 159%;
+  }
+
+
+
+}
